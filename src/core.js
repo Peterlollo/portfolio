@@ -37,4 +37,4 @@ function getWinners(vote) {
     else                       return [a, b];
   }
 
-  export INITIAL_STATE = Map();
+  export const INITIAL_STATE = Map();
