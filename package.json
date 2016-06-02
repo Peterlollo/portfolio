@@ -4,6 +4,7 @@
   "description": "REACT, REDUX, RUBY, RAILS portfolio",
   "main": "webpack.config.js",
   "scripts": {
+    "start": "babel-node ./client/index.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive",
     "test:watch": "npm run test -- --watch"
   },
